@@ -1,0 +1,10 @@
+.tinder-cards-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.tinder-card {
+  box-shadow: 0 2px 18px rgba(0,0,0,0.3);
+  background: #fff;
+  margin: 1rem;
+}
