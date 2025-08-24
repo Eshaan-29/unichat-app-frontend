@@ -24,12 +24,10 @@ function Swipe() {
           <p>No candidates to swipe right now.</p>
         ) : (
           candidates.map((user) => (
-            <TinderCard key={user._id} preventSwipe={["up", "down"]}>
-              <div className="tinder-card">
-                <h3>{user.name}</h3>
-                <p>{user.bio}</p>
-              </div>
-            </TinderCard>
+            <div key={user._id} className="tinder-card">
+              <h3>{user.name}</h3>
+              <p>{user.bio}</p>
+            </div>
           ))
         )}
       </div>
